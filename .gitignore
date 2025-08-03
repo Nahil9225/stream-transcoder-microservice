@@ -1,0 +1,8 @@
+.env
+
+hls-transcoder-container/.env/
+
+node_modules
+
+
+hls-transcoder-container/node_modules/
