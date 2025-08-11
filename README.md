@@ -1,4 +1,4 @@
-# 🎬 Stream Transcoder - HLS Video Transcoding System
+# 🎬 Stream Transcoder -  Video Transcoding System
 
 A scalable, cloud-native video transcoding system that automatically converts uploaded videos into multiple quality levels.
 
@@ -11,7 +11,7 @@ Stream Transcoder is built with a microservices architecture designed for scalab
 1. **🐳 HLS Transcoder Service** (`hls-transcoder-container/`)
 
    - Dockerized FFmpeg-based transcoding service
-   - Converts videos to adaptive bitrate HLS streams
+   - Converts videos to adaptive bitrate streams
    - Generates multiple quality levels (360p, 480p, 720p)
    - Automatically uploads processed content to S3
 
