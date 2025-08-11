@@ -8,10 +8,10 @@ Stream Transcoder is built with a microservices architecture designed for scalab
 
 ### Core Components
 
-1. **🐳 HLS Transcoder Service** (`hls-transcoder-container/`)
+1. **🐳 HLS Transcoder Service** (`transcoder-container/`)
 
    - Dockerized FFmpeg-based transcoding service
-   - Converts videos to adaptive bitrate streams
+   - Converts videos to multiple quality streams
    - Generates multiple quality levels (360p, 480p, 720p)
    - Automatically uploads processed content to S3
 
@@ -29,7 +29,7 @@ Stream Transcoder is built with a microservices architecture designed for scalab
 3. **Message Processing**: API service polls SQS for new messages
 4. **Container Launch**: API spawns Docker container with video key
 5. **Transcoding**: FFmpeg converts video to multiple HLS qualities
-6. **Upload**: Processed HLS files uploaded back to S3
+6. **Upload**: Processed video files uploaded back to S3
 7. **Cleanup**: SQS message deleted
 
 ## 🎯 Key Features
@@ -62,7 +62,7 @@ Stream Transcoder is built with a microservices architecture designed for scalab
 
 ### Environment Variables
 
-**HLS Transcoder** (`.env`):
+**Transcoder** (`.env`):
 
 ```env
 
